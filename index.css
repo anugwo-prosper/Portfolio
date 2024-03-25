@@ -1,0 +1,63 @@
+*{
+    padding: 0px;
+   margin: 0px;
+   box-sizing: border-box;
+   margin-left: 0px;
+   /* width: 100%; */
+   padding-left: 0px;
+}
+
+header{
+    display: flex;
+    width: 100%;
+    height: 160vh;
+    justify-content: center;
+}
+header .left{
+    background-color: #0e6df4;
+    width: 30vw;
+    height: 100%;
+}
+header .right{
+    background-color: #111111;
+    width: 70vw;
+    height: 100%;
+    color: cornsilk;
+    font-size: xx-large;
+    position: relative;
+    
+}
+header .left .myImage{
+    width: 250px;
+    height: 280px;
+    border-radius: 60%;
+    border: 6px solid grey;
+    padding: -10px;
+    margin-top: 170px;
+    position: relative;
+    left: 48px;
+    top: 38px;
+
+}
+header .left .myImage img{
+    width: 100%;
+    height:120%;
+    border-radius: 50%;
+    object-fit: cover;
+    position: inherit;
+    bottom: 54px;
+    
+}
+.H1style{
+    color: #42A5F5;
+    text-align: center;
+}
+.Url{
+   line-height: 40px;
+}
+.HHH{
+    width: 100vw;
+}
+.main{
+    width:100%
+}
